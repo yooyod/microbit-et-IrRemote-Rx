@@ -1,6 +1,17 @@
 
 > Open this page at [https://yooyod.github.io/microbit-et-irremote-rx/](https://yooyod.github.io/microbit-et-irremote-rx/)
 
+
+## Usage
+
+### Receive Remote Key5 Show Num5  On Display
+
+'''blocks
+IR_RemoteRx.connectIrReceiver(DigitalPin.P8)
+
+
+'''
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
@@ -17,13 +28,6 @@ To edit this repository in MakeCode.
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/yooyod/microbit-et-irremote-rx** and click import
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/yooyod/microbit-et-irremote-rx/raw/master/.github/makecode/blocks.png)
 
 #### Metadata (used for search, rendering)
 

@@ -48,7 +48,7 @@ IR_RemoteRx.onIrButton(IrButton.Num9, IrButtonAction.Pressed, function () {
 
 This repository can be added as an **extension** in MakeCode.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* open [https://makecode.microbit.org/stable#](https://makecode.microbit.org/stable#)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/yooyod/microbit-et-irremote-rx** and import
@@ -57,7 +57,7 @@ This repository can be added as an **extension** in MakeCode.
 
 To edit this repository in MakeCode.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* open [https://makecode.microbit.org/stable#](https://makecode.microbit.org/stable#)
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/yooyod/microbit-et-irremote-rx** and click import
 

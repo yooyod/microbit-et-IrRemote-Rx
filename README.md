@@ -4,7 +4,7 @@
 
 ## Usage
 
-### Receive Remote Key5 Show Num5  On Display
+### Receive Remote Key and Show numberKey at math On Display
 
 ```blocks
 

@@ -6,6 +6,21 @@
 
 ### Receive Remote Key5 Show Num5  On Display
 
+```blocks
+
+IR_RemoteRx.connectIrReceiver(DigitalPin.P8)
+IR_RemoteRx.onIrButton(IrButton.Num1, IrButtonAction.Pressed, function () {
+    basic.showString("1")
+})
+IR_RemoteRx.onIrButton(IrButton.Power, IrButtonAction.Pressed, function () {
+    basic.showString("PWR")
+})
+IR_RemoteRx.onIrButton(IrButton.Num9, IrButtonAction.Pressed, function () {
+    basic.showString("9")
+})
+
+```
+## Examples
 
 ## Use as Extension
 

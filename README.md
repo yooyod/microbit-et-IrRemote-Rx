@@ -6,11 +6,6 @@
 
 ### Receive Remote Key5 Show Num5  On Display
 
-'''blocks
-IR_RemoteRx.connectIrReceiver(DigitalPin.P8)
-
-
-'''
 
 ## Use as Extension
 

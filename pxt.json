@@ -1,5 +1,5 @@
 {
-    "name": "ET-IrRemote-Gh2",
+    "name": "ET-IrRemote",
     "version": "0.0.1",
     "description": "",
     "dependencies": {
@@ -8,8 +8,6 @@
         "microphone": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
         "README.md",
         "custom.ts"
     ],

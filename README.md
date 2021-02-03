@@ -4,6 +4,29 @@
 
 ## Usage
 
+```blocks
+
+IR_RemoteRx.connectIrReceiver(DigitalPin.P8)
+IR_RemoteRx.onIrButton(IrButton.Power, IrButtonAction.Pressed, function () {
+    basic.showString("PWR")
+})
+
+```
+## OR 
+```blocks
+
+IR_RemoteRx.connectIrReceiver(DigitalPin.P8)
+IR_RemoteRx.onIrDatagram(function () {
+    basic.showString(IR_RemoteRx.irDatagram())
+})
+
+})
+
+```
+
+
+## Examples
+
 ### Receive Remote Key and Show numberKey at math On Display
 
 ```blocks
@@ -20,7 +43,6 @@ IR_RemoteRx.onIrButton(IrButton.Num9, IrButtonAction.Pressed, function () {
 })
 
 ```
-## Examples
 
 ## Use as Extension
 

@@ -1,6 +1,6 @@
 {
     "name": "ET-IrRemote-Rx",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "Extention ET-IrRemote-Rx for ET-Remote Key ",
     "dependencies": {
         "core": "*"
